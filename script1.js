@@ -5,7 +5,7 @@ let obj2 = {age:5, name:"person 1"};
 
 for(let i in obj1){
   
-  if(obj1.i === obj2.i)
+  if(obj1[i] === obj2[i])
   console.log("true");
   else
   console.log("false");
